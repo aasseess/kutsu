@@ -8,7 +8,7 @@ export default class Casuals extends Component {
 
   componentDidMount = () => {
     fetch(
-      "https://my-json-server.typicode.com/sunuwara47/kutsu/cards?categories=Casuals"
+      "https://my-json-server.typicode.com/aashish-sunuwar/kutsu/cards?categories=Casuals"
     )
       .then((response) => response.json())
       .then((data) => {

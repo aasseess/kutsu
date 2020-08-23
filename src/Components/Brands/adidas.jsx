@@ -8,7 +8,7 @@ export default class Adidas extends Component {
 
   componentDidMount = () => {
     fetch(
-      "https://my-json-server.typicode.com/sunuwara47/kutsu/cards?brand=Adidas"
+      "https://my-json-server.typicode.com/aashish-sunuwar/kutsu/cards?brand=Adidas"
     )
       .then((response) => response.json())
       .then((data) => {

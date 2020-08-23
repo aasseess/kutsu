@@ -11,11 +11,14 @@ export default class Contactform extends Component {
     e.preventDefault();
 
     axios
-      .post("https://my-json-server.typicode.com/sunuwara47/kutsu/contact", {
-        name: document.querySelector(".name").value,
-        email: document.querySelector(".email").value,
-        message: document.querySelector("#message").value,
-      })
+      .post(
+        "https://my-json-server.typicode.com/aashish-sunuwar/kutsu/contact",
+        {
+          name: document.querySelector(".name").value,
+          email: document.querySelector(".email").value,
+          message: document.querySelector("#message").value,
+        }
+      )
       .then(() => {
         console.log("Success");
       })

@@ -8,7 +8,7 @@ export default class Main extends Component {
   }
 
   componentDidMount = () => {
-    fetch("https://my-json-server.typicode.com/sunuwara47/kutsu/cards")
+    fetch("https://my-json-server.typicode.com/aashish-sunuwar/kutsu/cards")
       .then((response) => response.json())
       .then((data) => {
         this.setState({ cards: data });

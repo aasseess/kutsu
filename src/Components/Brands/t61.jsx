@@ -8,7 +8,7 @@ export default class T61 extends Component {
 
   componentDidMount = () => {
     fetch(
-      "https://my-json-server.typicode.com/sunuwara47/kutsu/cards?brand=361"
+      "https://my-json-server.typicode.com/aashish-sunuwar/kutsu/cards?brand=361"
     )
       .then((response) => response.json())
       .then((data) => {

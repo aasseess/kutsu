@@ -8,7 +8,7 @@ export default class Boots extends Component {
 
   componentDidMount = () => {
     fetch(
-      "https://my-json-server.typicode.com/sunuwara47/kutsu/cards?categories=Boots"
+      "https://my-json-server.typicode.com/aashish-sunuwar/kutsu/cards?categories=Boots"
     )
       .then((response) => response.json())
       .then((data) => {
